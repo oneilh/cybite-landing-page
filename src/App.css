@@ -1,0 +1,136 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Manrope:wght@200..800&display=swap");
+@import "tailwindcss";
+
+:root {
+  /*  Base Colors (Light Mode)  */
+  --bg-app: #ffffff;
+  --text-app: #1e293b; /* Dark gray for light mode */
+
+  /*  Semantic Colors (Light Mode)  */
+  --primary: #2563eb;
+  /* --primary-dark: #1605ff; */
+  --primary-border: #1d4ed8;
+  --primary-icon: #1e40af;
+  --primary-bg: rgba(37, 99, 235, 0.1);
+
+  --success: #059669;
+  --success-border: #047857;
+  --success-icon: #065f46;
+  --success-bg: rgba(5, 150, 105, 0.1);
+
+  --warning: #d97706;
+  --warning-border: #b45309;
+  --warning-icon: #92400e;
+  --warning-bg: rgba(217, 119, 6, 0.1);
+
+  --danger: #e11d48;
+  --danger-border: #be123c;
+  --danger-icon: #9f1239;
+  --danger-bg: rgba(225, 29, 72, 0.1);
+
+  --neutral: #64748b;
+  --neutral-border: #e2e8f0;
+  --neutral-icon: #94a3b8;
+  --neutral-bg: rgba(203, 213, 225, 0.1);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg-app: #0f172a; /* Dark mode app background */
+    --text-app: #f8fafc; /* White in dark mode */
+
+    /* Semantic Colors */
+    --primary: #60a5fa;
+    --primary-border: #93c5fd;
+    --primary-icon: #bfdbfe;
+    --primary-bg: rgba(96, 165, 250, 0.1);
+
+    --success: #34d399;
+    --success-border: #6ee7b7;
+    --success-icon: #a7f3d0;
+    --success-bg: rgba(52, 211, 153, 0.1);
+
+    --warning: #fbbf24;
+    --warning-border: #fcd34d;
+    --warning-icon: #fde68a;
+    --warning-bg: rgba(251, 191, 36, 0.1);
+
+    --danger: #fb7185;
+    --danger-border: #fda4af;
+    --danger-icon: #fecdd3;
+    --danger-bg: rgba(251, 113, 133, 0.1);
+
+    --neutral: #94a3b8;
+    --neutral-border: #334155;
+    --neutral-icon: #cbd5e1;
+    --neutral-bg: rgba(51, 65, 85, 0.1);
+  }
+}
+/*  App Layout Utilities  */
+
+/*  Text Utilities  */
+.text-primary {
+  color: var(--primary);
+}
+.text-success {
+  color: var(--success);
+}
+.text-warning {
+  color: var(--warning);
+}
+.text-danger {
+  color: var(--danger);
+}
+.text-neutral {
+  color: var(--neutral);
+}
+
+/*  Backgrounds (Translucent)  */
+.bg-primary {
+  background-color: var(--primary-bg);
+}
+.bg-primary-dark {
+  background-color: var(--primary-dark);
+}
+.bg-success {
+  background-color: var(--success-bg);
+}
+.bg-warning {
+  background-color: var(--warning-bg);
+}
+.bg-danger {
+  background-color: var(--danger-bg);
+}
+.bg-neutral {
+  background-color: var(--neutral-bg);
+}
+
+/*  Borders & Icons  */
+.border-primary {
+  border-color: var(--primary-border);
+}
+.icon-primary {
+  color: var(--primary-icon);
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  background-color: var(--bg-app);
+  color: var(--text-app);
+}
+h1 {
+  font-weight: 700;
+}
+h2 {
+  font-style: normal;
+  font-weight: 600;
+}
+h1,
+h2 {
+  font-family: "Manrope", sans-serif;
+  line-height: 1.2;
+}
+.btn:hover {
+  background-color: var(--primary);
+}
