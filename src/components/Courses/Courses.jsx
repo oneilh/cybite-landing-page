@@ -1,5 +1,5 @@
 import { useState } from "react"
-import CoursesList from "./CoursesList"
+import CourseList from "./CourseList"
 
 const Courses = () => {
   useState(false)
@@ -11,7 +11,7 @@ const Courses = () => {
       <p className="text-center">Structured learning paths designed to take you from beginner to job-ready, with projects built for your portfolio.</p>
       </div>
 
-      <CoursesList/>
+      <CourseList/>
     </section>
   )
 }
