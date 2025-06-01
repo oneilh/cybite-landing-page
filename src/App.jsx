@@ -1,7 +1,8 @@
 import "./App.css";
-import Hero from "./components/Hero/Hero";
 import Navigation from "./components/Navigation/Navigation";
+import Hero from "./components/Hero/Hero";
 import WhyChooseUs from "./components/Why choose us/WhyChooseUs";
+import Courses from "./components/Courses/Courses";
 
 function App() {
   return (
@@ -10,8 +11,9 @@ function App() {
         <Navigation />
         <Hero />
       </section>
-      <WhyChooseUs/>
-      <section></section>
+      <WhyChooseUs />
+      <Courses />
+      <div></div>
     </main>
   );
 }

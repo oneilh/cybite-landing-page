@@ -89,9 +89,9 @@
 .bg-primary {
   background-color: var(--primary-bg);
 }
-.bg-primary-dark {
+/* .bg-primary-dark {
   background-color: var(--primary-dark);
-}
+} */
 .bg-success {
   background-color: var(--success-bg);
 }
@@ -125,6 +125,11 @@ h1 {
 h2 {
   font-style: normal;
   font-weight: 600;
+  @apply text-center text-2xl;
+  color: var(--primary);
+}
+.logo {
+  @apply text-xl;
 }
 h1,
 h2 {

@@ -12,7 +12,7 @@ const Navigation = () => {
           width={32}
           className="cursor-pointer"
         />
-        <h2 className="text-xl text-primary">Cybite Academy</h2>
+        <h2 className="logo">Cybite Academy</h2>
       </section>
 
       <section className="flex gap-8 text-2xl">

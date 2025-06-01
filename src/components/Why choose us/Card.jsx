@@ -17,7 +17,7 @@ const BenefitCard = () => {
     <section className="flex flex-col gap-4 w-[80%] min-w-[250px] mx-auto">
       {offers.map((offer) => {
         return (
-          <div className={"flex flex-col gap-4 bg-gray-300 p-6 pb-12 rounded-lg border "+offer.color}>
+          <div className={"flex flex-col gap-4 bg-gray-300 p-6 pb-12 rounded-lg border "+offer.color} key={offer.id}>
             <section className="flex gap-4 items-center font-bold">
               <div className="text-[24px]">
                 {icons[offer.id - 1]}
