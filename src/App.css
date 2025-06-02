@@ -113,6 +113,10 @@
   color: var(--primary-icon);
 }
 
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 70px; /* Adjust this if you have a fixed header */
+}
 body {
   font-family: "Inter", sans-serif;
   font-style: normal;

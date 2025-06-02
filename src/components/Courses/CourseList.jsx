@@ -1,18 +1,7 @@
 import { useState } from "react";
-import Course from "./Course";
-import { IoCode } from "react-icons/io5";
-import { LuServer } from "react-icons/lu";
-import { AiOutlineLineChart } from "react-icons/ai";
-import { BsPalette } from "react-icons/bs";
-const CourseList = () => {
-  const [activeCourse, setActiveCourse] = useState("FrontEnd Dev");
+import Course from "./CoursePill";
 
-  const courses = [
-    { icon: <IoCode />, content: "FrontEnd Dev" },
-    { icon: <LuServer />, content: "BackEnd Dev" },
-    { icon: <AiOutlineLineChart />, content: "Data Analysis" },
-    { icon: <BsPalette />, content: "Visual & UX Design" },
-  ];
+const CourseList = ({ courses, activeCourse, setActiveCourse }) => {
   const handleCourseClick = (courseContent) => {
     setActiveCourse(courseContent);
   };

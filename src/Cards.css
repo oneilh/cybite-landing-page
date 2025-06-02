@@ -1,0 +1,52 @@
+:root {
+  /* Soft Pastel Cards (Friendly & Approachable) */
+  /* Light Mode */
+  --card-pastel-blue: #e0f2fe;
+  --card-pastel-green: #dcfce7;
+  --card-pastel-rose: #ffe4e6;
+  --card-price: #059669;
+  --card-view-more: #e11d48;
+}
+
+@media (prefers-color-scheme: dark) {
+  /* Soft Pastel Cards (Friendly & Approachable) */
+  :root {
+    --card-pastel-blue: #0c4a6e;
+    --card-pastel-green: #064e3b;
+    --card-pastel-rose: #881337;
+    --card-price-dark: #34d399;
+    --card-view-more: #fb7185;
+  }
+}
+
+/* Soft Pastel Cards (Friendly & Approachable) */
+/* Usage Classes */
+.card-pastel-blue {
+  background: var(--card-pastel-blue);
+  border: 1px solid var(--primary-border);
+}
+.card-pastel-green {
+  background: var(--card-pastel-green);
+  border: 1px solid var(--success-border);
+}
+.card-pastel-rose {
+  background: var(--card-pastel-rose);
+  border: 1px solid var(--danger-border);
+}
+.card-price {
+  color: var(--card-price);
+  font-weight: bold;
+}
+.card-view-more {
+  color: var(--card-view-more);
+}
+.card-cta {
+  color: white;
+  border: none;
+  transition: transform 0.2s, background 0.2s;
+}
+.card-cta:hover {
+  background: var(--card-accent-cta-hover);
+  transform: translateY(-1px);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}

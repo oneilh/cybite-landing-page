@@ -1,4 +1,4 @@
-const Course = ({ icon, content, isActive, onClick }) => {
+const CoursePill = ({ icon, content, isActive, onClick }) => {
   const activeClass = "bg-blue-700 text-white";
   const inactiveClass = "bg-primary text-primary";
 
@@ -15,4 +15,4 @@ const Course = ({ icon, content, isActive, onClick }) => {
   );
 };
 
-export default Course;
+export default CoursePill;

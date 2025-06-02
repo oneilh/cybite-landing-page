@@ -8,9 +8,9 @@ const Hero = () => {
         <button className="btn bg-blue-700 text-white py-2 px-4 rounded-md cursor-pointer">
           Get Started
         </button>
-        <button className="border border-primary text-primary py-2 px-4 rounded-md cursor-pointer">
+        <a href="#courses" className="border border-primary text-primary py-2 px-4 rounded-md cursor-pointer">
           Explore Courses
-        </button>
+        </a>
       </section>
     </section>
   );
