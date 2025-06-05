@@ -3,6 +3,7 @@ import Navigation from "./components/Navigation/Navigation";
 import Hero from "./components/Hero/Hero";
 import WhyChooseUs from "./components/Why choose us/WhyChooseUs";
 import Courses from "./components/Courses/Courses";
+import TextTestimonalSlider from "./components/Testimonals/TextTestimonalSlider";
 
 function App() {
   return (
@@ -13,6 +14,8 @@ function App() {
       </section>
       <WhyChooseUs />
       <Courses />
+      <TextTestimonalSlider />
+      <div></div>
       <div></div>
     </main>
   );

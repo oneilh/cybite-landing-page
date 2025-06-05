@@ -143,3 +143,14 @@ h2 {
 .btn:hover {
   background-color: var(--primary);
 }
+
+.swiper-pagination-bullet.my-bullet{
+  border-radius: 0;
+  border-radius: 0.4rem;
+  background-color: var(--primary);
+  height: 6px;
+  width: 12px;
+}
+.swiper-pagination-bullet-active.my-active-bullet{
+  width: 20px;
+}

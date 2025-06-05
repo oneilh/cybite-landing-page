@@ -48,14 +48,9 @@ const Courses = () => {
       content: "Visual & UX Design",
       price: "N150,000",
       technologies: [
-        "HTML",
-        "CSS",
-        "JavaScript",
-        "Git",
-        "GitHub",
-        "Bootstrap",
-        "TailwindCSS",
-        "React",
+        "Adobe Photoshop",
+        "Figma",
+        "Corel Draw",
       ],
     },
   ];
