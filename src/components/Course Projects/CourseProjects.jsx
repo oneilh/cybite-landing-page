@@ -4,9 +4,9 @@ import Projects from "./Projects";
 const CourseProjects = () => {
   return (
     <section className="flex flex-col gap-4">
-      <h2 className=" text-xl text-neutral">
-        Projects completed{" "}
-        <span className="text-primary">during the course</span>
+      <h2 className="text-xl text-neutral">
+        Projects completed
+        <span className="text-primary"> during the course</span>
       </h2>
       <Tabs defaultValue="All">
         <Tabs.List>

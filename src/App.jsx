@@ -9,6 +9,7 @@ import WhyChooseUs from "./components/Why choose us/WhyChooseUs";
 import Courses from "./components/Courses/Courses";
 import TextTestimonalSlider from "./components/Testimonals/TextTestimonalSlider";
 import CourseProjects from "./components/Course Projects/CourseProjects";
+import StudentProject from "./components/Student Projects/StudentProject";
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
         <Courses />
         <TextTestimonalSlider />
         <CourseProjects />
+        <StudentProject/>
         <div></div>
         <div></div>
       </main>
