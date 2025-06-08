@@ -10,6 +10,8 @@ import Courses from "./components/Courses/Courses";
 import TextTestimonalSlider from "./components/Testimonals/TextTestimonalSlider";
 import CourseProjects from "./components/Course Projects/CourseProjects";
 import StudentProject from "./components/Student Projects/StudentProject";
+import KickStart from "./components/Kick start/KickStart";
+import CohortAnnouncement from "./components/Next Cohort/CohortAnnouncement";
 
 function App() {
   return (
@@ -23,7 +25,9 @@ function App() {
         <Courses />
         <TextTestimonalSlider />
         <CourseProjects />
-        <StudentProject/>
+        <StudentProject />
+        <KickStart />
+        <CohortAnnouncement />
         <div></div>
         <div></div>
       </main>

@@ -12,7 +12,7 @@ const StudentProject = () => {
 
       <div className="h-50 w-[95%] mx-auto border rounded-2xl flex flex-col justify-between sm:w-[300px]">
         <div></div>
-        <p className="text-center text-sm cursor-pointer py-2 hover:underline">
+        <p className="text-center text-sm cursor-pointer py-4 hover:underline">
           Discover the other projects
         </p>
       </div>
