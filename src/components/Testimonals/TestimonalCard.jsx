@@ -1,7 +1,7 @@
 const TestimonalCard = ({ testimonal }) => {
   const { name, role, text, image } = testimonal;
   return (
-    <section className="h-fit min-w-full flex flex-col gap-6 justify-between border  border-blue-300 dark:border-blue-100 p-4 rounded-2xl">
+    <section className="h-fit min-w-full flex flex-col gap-6 justify-between border  border-blue-300 dark:border-blue-100 p-4 rounded-2xl cursor-grab">
       <p>{text}</p>
       <div className="flex gap-4 items-center">
         <img

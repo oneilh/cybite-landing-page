@@ -15,8 +15,8 @@ import TestimonalCard from "./TestimonalCard";
 const TextTestimonalSlider = () => {
   return (
     <section className="flex flex-col gap-8">
-      <div className="flex flex-col gap-2">
-        <h3 className="text-2xl font-medium">What Our Students Say</h3>
+      <div className="flex flex-col gap-4">
+        <h2 className="text-left text-xl">What Our Students Say</h2>
         <p>
           Hear from the students who've transformed their careers through our
           courses.
