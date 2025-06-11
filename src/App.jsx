@@ -12,6 +12,7 @@ import CourseProjects from "./components/Course Projects/CourseProjects";
 import StudentProject from "./components/Student Projects/StudentProject";
 import KickStart from "./components/Kick start/KickStart";
 import CohortAnnouncement from "./components/Next Cohort/CohortAnnouncement";
+import Footer from "./components/Footer/Footer";
 
 function App() {
   return (
@@ -28,8 +29,7 @@ function App() {
         <StudentProject />
         <KickStart />
         <CohortAnnouncement />
-        <div></div>
-        <div></div>
+        <Footer />
       </main>
     </MantineProvider>
   );
