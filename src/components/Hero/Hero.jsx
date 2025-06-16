@@ -2,7 +2,7 @@ import CTA_Buttons from "./CTA_Buttons";
 import StatsCounter from "./StatsCounter";
 const Hero = () => {
   return (
-    <section className=" flex flex-col items-center justify-center min-h-[80vh] px-4 sm:px-6 lg:px-8 py-12 ">
+    <section className=" flex flex-col items-center justify-center min-h-[80vh] px-4 sm:px-6 lg:px-8 py-12 mt-20">
       <div className="relative z-10 w-full max-w-6xl mx-auto text-center flex flex-col items-center gap-6">
         <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold leading-tight tracking-tight">
           Coding Education for{" "}
