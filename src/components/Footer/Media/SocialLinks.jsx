@@ -1,6 +1,6 @@
 export const Whatsapp = () => (
   <a
-    href="#"
+    href="https://wa.me/2349061978141"
     className="min-w-10 h-10 rounded-full bg-success flex items-center justify-center text-success hover:bg-success hover:text-white transition"
     aria-label="WhatsApp"
   >
@@ -12,7 +12,7 @@ export const Whatsapp = () => (
 
 export const Github = () => (
   <a
-    href="#"
+    href="https://github.com/Cybite-Academy"
     className="min-w-10 h-10 rounded-full bg-neutral flex items-center justify-center text-neutral hover:bg-neutral hover:text-white transition"
     aria-label="GitHub"
   >
@@ -24,7 +24,7 @@ export const Github = () => (
 
 export const Facebook = () => (
   <a
-    href="#"
+    href="https://www.facebook.com/share/1Dv4xVheZB/?ref=share"
     className="min-w-10 h-10 rounded-full bg-primary flex items-center justify-center text-primary hover:bg-primary hover:text-white transition"
     aria-label="Facebook"
   >
@@ -36,7 +36,7 @@ export const Facebook = () => (
 
 export const Instagram = () => (
   <a
-    href="#"
+    href="https://www.instagram.com/realcybite?igsh=Z3E2dm10cG9tNGp5"
     className="min-w-10 h-10 rounded-full bg-danger flex items-center justify-center text-danger hover:bg-danger hover:text-white transition"
     aria-label="Instagram"
   >
@@ -48,7 +48,7 @@ export const Instagram = () => (
 
 export const Tiktok = () => (
   <a
-    href="#"
+    href="https://www.tiktok.com/@realcybite?is_from_webapp=1&sender_device=pc"
     className="min-w-10 h-10 rounded-full bg-warning flex items-center justify-center text-warning hover:bg-warning hover:text-white transition"
     aria-label="TikTok"
   >

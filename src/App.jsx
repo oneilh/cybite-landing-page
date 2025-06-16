@@ -18,7 +18,7 @@ function App() {
   return (
     <MantineProvider>
       <main className="w-[90%] mx-auto mt-4 flex flex-col gap-16">
-        <section className="flex flex-col gap-12">
+        <section className="flex flex-col gap-12 ">
           <Navigation />
           <Hero />
         </section>

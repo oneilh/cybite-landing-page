@@ -3,7 +3,7 @@ import Projects from "./Projects";
 
 const CourseProjects = () => {
   return (
-    <section className="flex flex-col gap-4">
+    <section className="flex flex-col gap-4" id="projects">
       <h2 className="text-xl text-neutral">
         Projects completed
         <span className="text-primary"> during the course</span>

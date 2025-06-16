@@ -16,7 +16,7 @@ const Navigation = () => {
   }, []);
 
   const navLinks = [
-    { name: "Home", href: "#home" },
+    { name: "Home", href: "#" },
     { name: "Courses", href: "#courses" },
     { name: "Testimonials", href: "#testimonials" },
     { name: "Projects", href: "#projects" },
@@ -87,8 +87,8 @@ const Navigation = () => {
           <section className="flex md:hidden gap-4 items-center">
             <button
               onClick={toggleDarkMode}
-              className="p-2 rounded-full hover:bg-gray-200 dark:hover:bg-gray-700 transition-colors"
-              aria-label="Toggle dark mode"
+              className="p-2 rounded-full hover:bg-gray-200 dark:hover:bg-gray-700 transition-colors cursor-pointer"
+              aria-label="Toggle dark mode "
             >
               {darkMode ? (
                 <FiSun className="text-xl text-yellow-400" />
@@ -102,7 +102,11 @@ const Navigation = () => {
               className="text-2xl text-gray-700 dark:text-gray-300 focus:outline-none"
               aria-label="Toggle menu"
             >
-              {isOpen ? <HiX /> : <HiMenuAlt2 />}
+              {isOpen ? (
+                <HiX className="cursor-pointer" />
+              ) : (
+                <HiMenuAlt2 className="cursor-pointer" />
+              )}
             </button>
           </section>
         </div>

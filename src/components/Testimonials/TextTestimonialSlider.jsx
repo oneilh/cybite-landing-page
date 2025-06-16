@@ -22,7 +22,7 @@ const TextTestimonialSlider = () => {
   const [modalOpened, setModalOpened] = useState(false);
 
   return (
-    <section className="flex flex-col gap-8">
+    <section className="flex flex-col gap-8" id="testimonials">
       <div className="flex flex-col gap-4">
         <h2 className="text-left text-xl">What Our Students Say</h2>
         <p className="text-neutral">
