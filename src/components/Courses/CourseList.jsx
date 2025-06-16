@@ -1,4 +1,3 @@
-import { useState } from "react";
 import Course from "./CoursePill";
 
 const CourseList = ({ courses, activeCourse, setActiveCourse }) => {
@@ -7,7 +6,7 @@ const CourseList = ({ courses, activeCourse, setActiveCourse }) => {
   };
 
   return (
-    <section className="flex flex-wrap gap-2.5 justify-around">
+    <section className="flex flex-wrap gap-3 justify-center md:justify-between">
       {courses.map((course) => (
         <Course
           key={course.content}

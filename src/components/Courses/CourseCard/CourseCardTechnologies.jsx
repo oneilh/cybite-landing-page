@@ -1,14 +1,16 @@
-const CourseCardTechnologies = ({course}) => {
-  let id= 0;
+const CourseCardTechnologies = ({ course }) => {
   return (
-       <section className="flex flex-wrap gap-4">
-              {course.technologies?.map((tech, index) => (
-                <p className="bg-primary text-primary py-1 px-4 rounded-full" key={id++}>
-                  {tech}
-                </p>
-              ))}
-            </section>
-  )
-}
+    <div className="flex flex-wrap gap-2 mt-2">
+      {course.technologies?.map((tech, index) => (
+        <span
+          className="bg-[var(--neutral-bg)] text-neutral py-1 px-3 rounded-full text-xs font-medium"
+          key={index}
+        >
+          {tech}
+        </span>
+      ))}
+    </div>
+  );
+};
 
-export default CourseCardTechnologies
+export default CourseCardTechnologies;
