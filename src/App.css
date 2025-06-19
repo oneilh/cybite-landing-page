@@ -68,6 +68,38 @@
   }
 }
 
+/* ============ Dark Mode Overrides (Triggered by class) ============ */
+html.dark {
+  --bg-app: #0f172a;
+  --text-app: #f8fafc;
+
+  /* Semantic Colors - Dark */
+  --primary: #3b82f6;
+  --primary-border: #2563eb;
+  --primary-icon: #93c5fd;
+  --primary-bg: rgba(26, 77, 184, 0.15);
+
+  --success: #34d399;
+  --success-border: #6ee7b7;
+  --success-icon: #a7f3d0;
+  --success-bg: rgba(52, 211, 153, 0.1);
+
+  --warning: #fbbf24;
+  --warning-border: #fcd34d;
+  --warning-icon: #fde68a;
+  --warning-bg: rgba(251, 191, 36, 0.1);
+
+  --danger: #fb7185;
+  --danger-border: #fda4af;
+  --danger-icon: #fecdd3;
+  --danger-bg: rgba(251, 113, 133, 0.1);
+
+  --neutral: #94a3b8;
+  --neutral-border: #334155;
+  --neutral-icon: #cbd5e1;
+  --neutral-bg: rgba(51, 65, 85, 0.1);
+}
+
 /* ============ Base Styles ============ */
 html {
   scroll-behavior: smooth;

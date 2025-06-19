@@ -33,39 +33,71 @@
   --neutral-icon: #94a3b8;
   --neutral-bg: rgba(203, 213, 225, 0.1);
 }
+[data-theme="dark"] {
+  --bg-app: #0f172a; /* Dark mode app background */
+  --text-app: #f8fafc; /* White in dark mode */
 
+  /* Semantic Colors */
+  --primary: #60a5fa;
+  --primary-border: #93c5fd;
+  --primary-icon: #bfdbfe;
+  --primary-bg: rgba(96, 165, 250, 0.1);
+
+  --success: #34d399;
+  --success-border: #6ee7b7;
+  --success-icon: #a7f3d0;
+  --success-bg: rgba(52, 211, 153, 0.1);
+
+  --warning: #fbbf24;
+  --warning-border: #fcd34d;
+  --warning-icon: #fde68a;
+  --warning-bg: rgba(251, 191, 36, 0.1);
+
+  --danger: #fb7185;
+  --danger-border: #fda4af;
+  --danger-icon: #fecdd3;
+  --danger-bg: rgba(251, 113, 133, 0.1);
+
+  --neutral: #94a3b8;
+  --neutral-border: #334155;
+  --neutral-icon: #cbd5e1;
+  --neutral-bg: rgba(51, 65, 85, 0.1);
+}
 @media (prefers-color-scheme: dark) {
-  :root {
-    --bg-app: #0f172a; /* Dark mode app background */
-    --text-app: #f8fafc; /* White in dark mode */
+  :root:not([data-theme]) {
+    :root {
+      --bg-app: #0f172a; /* Dark mode app background */
+      --text-app: #f8fafc; /* White in dark mode */
 
-    /* Semantic Colors */
-    --primary: #60a5fa;
-    --primary-border: #93c5fd;
-    --primary-icon: #bfdbfe;
-    --primary-bg: rgba(96, 165, 250, 0.1);
+      /* Semantic Colors */
+      --primary: #60a5fa;
+      --primary-border: #93c5fd;
+      --primary-icon: #bfdbfe;
+      --primary-bg: rgba(96, 165, 250, 0.1);
 
-    --success: #34d399;
-    --success-border: #6ee7b7;
-    --success-icon: #a7f3d0;
-    --success-bg: rgba(52, 211, 153, 0.1);
+      --success: #34d399;
+      --success-border: #6ee7b7;
+      --success-icon: #a7f3d0;
+      --success-bg: rgba(52, 211, 153, 0.1);
 
-    --warning: #fbbf24;
-    --warning-border: #fcd34d;
-    --warning-icon: #fde68a;
-    --warning-bg: rgba(251, 191, 36, 0.1);
+      --warning: #fbbf24;
+      --warning-border: #fcd34d;
+      --warning-icon: #fde68a;
+      --warning-bg: rgba(251, 191, 36, 0.1);
 
-    --danger: #fb7185;
-    --danger-border: #fda4af;
-    --danger-icon: #fecdd3;
-    --danger-bg: rgba(251, 113, 133, 0.1);
+      --danger: #fb7185;
+      --danger-border: #fda4af;
+      --danger-icon: #fecdd3;
+      --danger-bg: rgba(251, 113, 133, 0.1);
 
-    --neutral: #94a3b8;
-    --neutral-border: #334155;
-    --neutral-icon: #cbd5e1;
-    --neutral-bg: rgba(51, 65, 85, 0.1);
+      --neutral: #94a3b8;
+      --neutral-border: #334155;
+      --neutral-icon: #cbd5e1;
+      --neutral-bg: rgba(51, 65, 85, 0.1);
+    }
   }
 }
+
 /*  App Layout Utilities  */
 
 /*  Text Utilities  */
@@ -194,3 +226,69 @@ body {
 .shadow-primary\/30 {
   box-shadow: 0 4px 6px -1px rgba(var(--primary), 0.3);
 }
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg-app: #0f172a; /* Dark mode app background */
+    --text-app: #f8fafc; /* White in dark mode */
+
+    /* Semantic Colors */
+    --primary: #60a5fa;
+    --primary-border: #93c5fd;
+    --primary-icon: #bfdbfe;
+    --primary-bg: rgba(96, 165, 250, 0.1);
+
+    --success: #34d399;
+    --success-border: #6ee7b7;
+    --success-icon: #a7f3d0;
+    --success-bg: rgba(52, 211, 153, 0.1);
+
+    --warning: #fbbf24;
+    --warning-border: #fcd34d;
+    --warning-icon: #fde68a;
+    --warning-bg: rgba(251, 191, 36, 0.1);
+
+    --danger: #fb7185;
+    --danger-border: #fda4af;
+    --danger-icon: #fecdd3;
+    --danger-bg: rgba(251, 113, 133, 0.1);
+
+    --neutral: #94a3b8;
+    --neutral-border: #334155;
+    --neutral-icon: #cbd5e1;
+    --neutral-bg: rgba(51, 65, 85, 0.1);
+  }
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg-app: #0f172a; /* Dark mode app background */
+    --text-app: #f8fafc; /* White in dark mode */
+
+    /* Semantic Colors */
+    --primary: #60a5fa;
+    --primary-border: #93c5fd;
+    --primary-icon: #bfdbfe;
+    --primary-bg: rgba(96, 165, 250, 0.1);
+
+    --success: #34d399;
+    --success-border: #6ee7b7;
+    --success-icon: #a7f3d0;
+    --success-bg: rgba(52, 211, 153, 0.1);
+
+    --warning: #fbbf24;
+    --warning-border: #fcd34d;
+    --warning-icon: #fde68a;
+    --warning-bg: rgba(251, 191, 36, 0.1);
+
+    --danger: #fb7185;
+    --danger-border: #fda4af;
+    --danger-icon: #fecdd3;
+    --danger-bg: rgba(251, 113, 133, 0.1);
+
+    --neutral: #94a3b8;
+    --neutral-border: #334155;
+    --neutral-icon: #cbd5e1;
+    --neutral-bg: rgba(51, 65, 85, 0.1);
+  }
+}
+

@@ -14,24 +14,31 @@ import KickStart from "./components/Kick start/KickStart";
 import CohortAnnouncement from "./components/Next Cohort/CohortAnnouncement";
 import Footer from "./components/Footer/Footer";
 
+
+import CourseInquiryModal from "./components/CourseInquiry/CourseInquiryModal";
+import { ModalProvider } from "./context/ModalContext";
+
 function App() {
   return (
-    <MantineProvider>
-      <main className="w-[90%] mx-auto mt-4 flex flex-col gap-16">
-        <section className="flex flex-col gap-12 ">
-          <Navigation />
-          <Hero />
-        </section>
-        <WhyChooseUs />
-        <Courses />
-        <TextTestimonialSlider />
-        <CourseProjects />
-        <StudentProject />
-        <KickStart />
-        <CohortAnnouncement />
-        <Footer />
-      </main>
-    </MantineProvider>
+    <ModalProvider>
+      <MantineProvider>
+        <main className="w-[90%] mx-auto mt-4 flex flex-col gap-16">
+          <section className="flex flex-col gap-12 ">
+            <Navigation />
+            <Hero />
+          </section>
+          <WhyChooseUs />
+          <Courses />
+          <TextTestimonialSlider />
+          <CourseProjects />
+          <StudentProject />
+          <KickStart />
+          <CohortAnnouncement />
+          <Footer />
+        </main>
+        <CourseInquiryModal />
+      </MantineProvider>
+    </ModalProvider>
   );
 }
 
