@@ -7,7 +7,7 @@ const KickStart = () => {
     {
       id: 1,
       title: "Learn Faster. Build Sooner.",
-      text: "Learn the basics in structured way → Level up → Build.",
+      text: "Learn the basics in a structured way → Level up → Build.",
       icon: <GoStack className="text-2xl" />,
       iconBg: "bg-primary",
       iconColor: "text-primary",
@@ -22,8 +22,8 @@ const KickStart = () => {
     },
     {
       id: 3,
-      title: "Get Hands-On: Work With Real Dev Tools & Setups",
-      text: "Live demos + guided practice on real tools and configs = true mastery.",
+      title: "Get Hands-On Experience: Work With Real Dev Tools & Setups",
+      text: "Live demos + Guided practice on real tools and configs = True mastery.",
       icon: <GrConfigure className="text-2xl" />,
       iconBg: "bg-warning",
       iconColor: "text-warning",

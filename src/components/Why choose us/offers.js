@@ -24,14 +24,14 @@ export const offers = [
     id: 4,
     icon: "",
     title: "Streamlined Learning Path",
-    text: `Our curated roadmaps eliminate confusion and frustration. guiding you efficiently through complex concepts. Say to the "Google rabbit hole."`,
+    text: `Our curated roadmaps eliminate confusion and frustration. guiding you efficiently through complex concepts. Say no to the "Google rabbit hole."`,
     color: "bg-danger border-danger text-danger icon-danger",
   },
   {
     id: 5,
     icon: "",
     title: "Physical + Remote Learning",
-    text: `Join in person or tune in remotely live online.Same energy. zero compromises`,
+    text: `Join in person or tune in live online. Same energy. Zero compromises.`,
     color: "bg-warning border-warning text-warning icon-warning",
   },
 ];

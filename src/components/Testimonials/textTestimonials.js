@@ -11,7 +11,7 @@ export const textTestimonals = [
     name: "Lawal",
     role: "Business Owner & Graphic Designer",
     text: `Before joining Cybite Academy, I ran my business without really understanding how to present it online. After taking the graphics and frontend development courses, everything changed. I now design my own branding and manage my website and I ave seen a real boost. The skills I gained aren’t just technical they are practical and helping my me grow everyday.`,
-    image: "",
+    image: "/Images/TextImages/lawal.png",
   },
   {
     id: 3,
@@ -39,7 +39,7 @@ export const textTestimonals = [
     name: "Halima",
     role: "Frontend Developer",
     text: `Learning both frontend development and design at Cybite Academy was one of the best decisions I’ve made. Before heading out for NYSC, I completed both courses and those skills helped me land a tech job right after. Cybite didn’t just teach me theory; they gave me the real-world skills companies are looking for.`,
-    image: "",
+    image: "/Images/TextImages/halima.png",
   },
   {
     id: 7,
