@@ -147,27 +147,38 @@
 
 // export default Navigation;
 
-
 import { useState, useEffect } from "react";
 import { FiMoon, FiSun } from "react-icons/fi";
 import { HiMenuAlt2, HiX } from "react-icons/hi";
+import { useModal } from "../../context/ModalContext";
 
 const Navigation = () => {
+  const { openModal } = useModal();
+
   const [isOpen, setIsOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
 
   // Initialize darkMode state based on localStorage or system preference
   // This function runs only once on initial render
   const [darkMode, setDarkMode] = useState(() => {
-    if (typeof window !== 'undefined') {
-      const storedTheme = localStorage.getItem('theme');
-      console.log("Initial state check: Stored theme from localStorage =", storedTheme);
-      if (storedTheme !== null) { // Check if 'theme' exists in localStorage
-        return storedTheme === 'dark';
+    if (typeof window !== "undefined") {
+      const storedTheme = localStorage.getItem("theme");
+      console.log(
+        "Initial state check: Stored theme from localStorage =",
+        storedTheme
+      );
+      if (storedTheme !== null) {
+        // Check if 'theme' exists in localStorage
+        return storedTheme === "dark";
       }
       // If no stored theme, check system preference
-      const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
-      console.log("Initial state check: System prefers dark mode =", prefersDark);
+      const prefersDark = window.matchMedia(
+        "(prefers-color-scheme: dark)"
+      ).matches;
+      console.log(
+        "Initial state check: System prefers dark mode =",
+        prefersDark
+      );
       return prefersDark;
     }
     // Default to false (light mode) if window is not defined (e.g., during SSR)
@@ -179,12 +190,14 @@ const Navigation = () => {
     console.log("useEffect triggered. Current darkMode state:", darkMode);
     if (darkMode) {
       document.documentElement.classList.add("dark");
-      localStorage.setItem('theme', 'dark');
+      localStorage.setItem("theme", "dark");
       console.log("Class 'dark' added to html. localStorage set to 'dark'.");
     } else {
       document.documentElement.classList.remove("dark");
-      localStorage.setItem('theme', 'light');
-      console.log("Class 'dark' removed from html. localStorage set to 'light'.");
+      localStorage.setItem("theme", "light");
+      console.log(
+        "Class 'dark' removed from html. localStorage set to 'light'."
+      );
     }
   }, [darkMode]); // This effect runs whenever 'darkMode' state changes
 
@@ -264,7 +277,10 @@ const Navigation = () => {
               )}
             </button>
 
-            <button className="bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-lg font-medium transition-colors">
+            <button
+              className="bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-lg font-medium transition-colors"
+              onClick={openModal}
+            >
               Get Started
             </button>
           </section>

@@ -1,16 +1,18 @@
+import { useModal } from "../../../context/ModalContext";
 import CourseCardTechnologies from "./CourseCardTechnologies";
 import CourseCardTitle from "./CourseCardTitle";
 import { MdMenuBook } from "react-icons/md";
 
 const CourseCard = ({ courses, activeCourse }) => {
+  const { openModal } = useModal();
   return (
     <section className="grid gap-6">
       {courses
-        .filter((course) => course.content === activeCourse)
+        .filter((course) => course.name === activeCourse)
         .map((course) => (
           <div
             className="flex flex-col gap-5 p-6 md:p-8 rounded-xl bg-app border border-[var(--neutral-border)] shadow-sm hover:shadow-md transition-all duration-300"
-            key={course.content}
+            key={course.id}
           >
             <CourseCardTitle course={course} />
 
@@ -27,7 +29,10 @@ const CourseCard = ({ courses, activeCourse }) => {
               <button className="text-primary hover:!text-[var(--primary-border)] text-sm font-medium transition-colors cursor-pointer">
                 Learn More →
               </button>
-              <button className="w-full sm:w-auto px-6 py-3 bg-[var(--primary-border)] hover:bg-[var(--primary-bg)] text-white font-medium rounded-md transition-colors cursor-pointer">
+              <button
+                className="w-full sm:w-auto px-6 py-3 bg-[var(--primary-border)] hover:bg-[var(--primary-bg)] text-white font-medium rounded-md transition-colors cursor-pointer"
+                onClick={() => openModal(course)}
+              >
                 Enroll Now - {course.price}
               </button>
             </div>

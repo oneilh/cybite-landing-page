@@ -5,7 +5,7 @@ const CourseCardTitle = ({ course }) => {
         <div className="text-2xl bg-[var(--primary-bg)] text-[var(--primary-icon)] p-2.5 rounded-lg">
           {course.icon}
         </div>
-        <h1 className="text-xl font-bold text-app">{course.content}</h1>
+        <h1 className="text-xl font-bold text-app">{course.name}</h1>
       </div>
       <h3 className="text-xl font-bold text-primary">{course.price}</h3>
     </div>

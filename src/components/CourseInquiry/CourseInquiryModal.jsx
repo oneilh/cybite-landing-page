@@ -3,13 +3,14 @@ import { useState, useEffect } from "react";
 // import { useModal } from "../context/ModalContext"; // Adjust path if needed
 import { MdClose } from "react-icons/md"; // For the close button
 import { useModal } from "../../context/ModalContext";
+import { courses } from "../Courses/AllCourses";
 
-const courses = [
-  { id: "web-dev", name: "Web Development Bootcamp", price: 1200 },
-  { id: "data-science", name: "Data Science Masterclass", price: 1500 },
-  { id: "ux-design", name: "UI/UX Design Fundamentals", price: 950 },
-  { id: "digital-marketing", name: "Digital Marketing Pro", price: 800 },
-];
+// const courses = [
+//   { id: "FrontEnd Dev", name: "FrontEnd Dev", price: 150000 },
+//   { id: "BackEnd Dev", name: "BackEnd Dev", price: 150000 },
+//   { id: "Data Analysis", name: "Visual & UX Design", price: 150000 },
+//   // { id: "digital-marketing", name: "Digital Marketing Pro", price: 800 },
+// ];
 
 const CourseInquiryModal = () => {
   const { isModalOpen, closeModal, preselectedCourse } = useModal();
@@ -71,7 +72,8 @@ My question: ${question || "N/A"}
     const encodedMessage = encodeURIComponent(message);
 
     // Replace YOUR_WHATSAPP_NUMBER with your actual number (with country code, no + or spaces)
-    const whatsappUrl = `https://wa.me/YOUR_WHATSAPP_NUMBER?text=${encodedMessage}`;
+    // const whatsappUrl = `https://wa.me/YOUR_WHATSAPP_NUMBER?text=${encodedMessage}`;
+    const whatsappUrl = `https://wa.me/+2349061978141?text=${encodedMessage}`;
 
     window.open(whatsappUrl, "_blank"); // Open in a new tab
 
@@ -190,7 +192,7 @@ My question: ${question || "N/A"}
               <p className="text-sm text-gray-600 mt-2">
                 Price:{" "}
                 <span className="font-semibold text-lg">
-                  ${selectedCourse.price}
+                  {selectedCourse.price}
                 </span>
               </p>
             )}
@@ -233,3 +235,4 @@ My question: ${question || "N/A"}
 };
 
 export default CourseInquiryModal;
+

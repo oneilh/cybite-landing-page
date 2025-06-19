@@ -9,10 +9,10 @@ const CourseList = ({ courses, activeCourse, setActiveCourse }) => {
     <section className="flex flex-wrap gap-3 justify-center md:justify-between">
       {courses.map((course) => (
         <Course
-          key={course.content}
+          key={course.name}
           icon={course.icon}
-          content={course.content}
-          isActive={activeCourse === course.content}
+          name={course.name}
+          isActive={activeCourse === course.name}
           onClick={handleCourseClick}
         />
       ))}

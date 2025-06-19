@@ -14,7 +14,6 @@ import KickStart from "./components/Kick start/KickStart";
 import CohortAnnouncement from "./components/Next Cohort/CohortAnnouncement";
 import Footer from "./components/Footer/Footer";
 
-
 import CourseInquiryModal from "./components/CourseInquiry/CourseInquiryModal";
 import { ModalProvider } from "./context/ModalContext";
 
