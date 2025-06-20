@@ -17,10 +17,16 @@ const CourseSlider = ({ value }) => {
           </div>
           <section className="flex justify-between items-center w-[90%] mx-auto border border-neutral border-t-0 p-3 rounded-es-2xl rounded-ee-2xl">
             <div className="flex flex-col text-sm">
-              <p className="font-medium hover:underline"> {p.name}</p>
+              <p className="font-medium hover:underline">
+                <a href={p.liveLink} target="_blank">
+                  {p.name}
+                </a>
+              </p>
               <p>{p.category}</p>
             </div>
-            <FiExternalLink className="text-lg" />
+            <a href={p.liveLink} target="_blank">
+              <FiExternalLink className="text-lg hover:text-[var(--primary)]" />
+            </a>
           </section>
         </SwiperSlide>
       ));
@@ -35,11 +41,15 @@ const CourseSlider = ({ value }) => {
         <section className="flex justify-between items-center w-[90%] mx-auto border border-neutral border-t-0 p-3 rounded-es-2xl rounded-ee-2xl">
           <div className="flex flex-col text-sm">
             <p className="font-medium hover:underline hover:text-[var(--primary)]">
-              {p.name}
+              <a href={p.liveLink} target="_blank">
+                {p.name}
+              </a>
             </p>
             <p>{p.category}</p>
           </div>
-          <FiExternalLink className="text-lg hover:text-[var(--primary)]" />
+          <a href={p.liveLink} target="_blank">
+            <FiExternalLink className="text-lg hover:text-[var(--primary)]" />
+          </a>
         </section>
       </SwiperSlide>
     );

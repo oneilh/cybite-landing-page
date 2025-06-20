@@ -5,7 +5,7 @@ import { useModal } from "../../context/ModalContext";
 const CohortAnnouncement = () => {
   const { openModal } = useModal();
 
-  const startDate = new Date("June 25, 2025");
+  const startDate = new Date("June 28, 2025");
   const today = new Date();
   const daysRemaining = Math.ceil((startDate - today) / (1000 * 60 * 60 * 24));
 
@@ -36,7 +36,7 @@ const CohortAnnouncement = () => {
             </div>
           </div>
 
-          <div className="flex items-center gap-2">
+          {/* <div className="flex items-center gap-2">
             <div className="rounded-lg bg-primary border border-primary p-2">
               <FiClock className="text-xl text-primary-icon" />
             </div>
@@ -44,7 +44,7 @@ const CohortAnnouncement = () => {
               <p className="text-xs text-neutral">Duration</p>
               <p className="font-semibold">12 Weeks</p>
             </div>
-          </div>
+          </div> */}
 
           <div className="flex items-center gap-2">
             <div className="rounded-lg bg-primary border border-primary p-2">
@@ -58,12 +58,15 @@ const CohortAnnouncement = () => {
         </div>
 
         <div className="flex flex-col gap-4 sm:flex-row">
-          <button className="transform rounded-lg bg-primary px-6 py-3 text-center font-medium app-text transition-all hover:scale-105 hover:shadow-lg focus:scale-105 active:scale-95 border border-primary cursor-pointer" onClick={openModal}>
+          <button
+            className="transform rounded-lg bg-primary px-6 py-3 text-center font-medium app-text transition-all hover:scale-105 hover:shadow-lg focus:scale-105 active:scale-95 border border-primary cursor-pointer"
+            onClick={openModal}
+          >
             Apply Now
           </button>
-          <button className="rounded-lg border-2 border-primary-border bg-transparent px-6 py-3 text-center font-medium text-primary transition-all hover:bg-primary-bg hover:border-primary focus:bg-primary-bg cursor-pointer">
+          {/* <button className="rounded-lg border-2 border-primary-border bg-transparent px-6 py-3 text-center font-medium text-primary transition-all hover:bg-primary-bg hover:border-primary focus:bg-primary-bg cursor-pointer">
             Learn More
-          </button>
+          </button> */}
         </div>
       </div>
     </div>

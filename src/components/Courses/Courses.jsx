@@ -7,6 +7,17 @@ import CourseList from "./CourseList";
 import CourseCard from "./CourseCard/CourseCard";
 import { courses } from "./AllCourses";
 
+/*************  ✨ Windsurf Command ⭐  *************/
+/**
+ * Courses component renders a section displaying available courses.
+ * It includes a list of courses and details for the currently active course.
+ * Uses CourseList for displaying course names and CourseCard for detailed view.
+ * 
+ * @returns A section element containing a header, description, a list of courses,
+ * and detailed information about the selected course.
+ */
+
+/*******  d1a35f58-1191-4381-bb27-f66879416380  *******/
 const Courses = () => {
   const [activeCourse, setActiveCourse] = useState("FrontEnd Dev");
   // const courses = [

@@ -26,9 +26,9 @@ const CourseCard = ({ courses, activeCourse }) => {
             <CourseCardTechnologies course={course} />
 
             <div className="flex flex-col sm:flex-row gap-3 justify-between items-start sm:items-center mt-2">
-              <button className="text-primary hover:!text-[var(--primary-border)] text-sm font-medium transition-colors cursor-pointer">
+              {/* <button className="text-primary hover:!text-[var(--primary-border)] text-sm font-medium transition-colors cursor-pointer">
                 Learn More →
-              </button>
+              </button> */}
               <button
                 className="w-full sm:w-auto px-6 py-3 bg-[var(--primary-border)] hover:bg-[var(--primary-bg)] text-white font-medium rounded-md transition-colors cursor-pointer"
                 onClick={() => openModal(course)}
