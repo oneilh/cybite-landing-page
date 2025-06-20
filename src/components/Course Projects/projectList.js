@@ -3,17 +3,16 @@ export const projects = [
     id: 1,
     category: "Frontend",
     name: "Rock, Paper N scissors",
-    previewImg: "/rock-paper-scissors.png",
+    previewImg: "/Images/Projects/rock-paper-scissors.png",
     liveLink:
       "https://vercel.com/oneilhs-projects/rock-paper-scissors/EVdJmYWUk6usxfNyZidXwCZgx8Go",
   },
   {
     id: 2,
     category: "Frontend",
-    name: "Rock, Paper N scissors",
-    previewImg: "/rock-paper-scissors.png",
-    liveLink:
-      "https://vercel.com/oneilhs-projects/rock-paper-scissors/EVdJmYWUk6usxfNyZidXwCZgx8Go",
+    name: "Budget Stats",
+    previewImg: "/Images/Projects/budgetstats.png",
+    liveLink: "https://budget-stats.vercel.app/",
   },
   {
     id: 3,

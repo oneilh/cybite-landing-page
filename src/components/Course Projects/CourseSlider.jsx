@@ -12,10 +12,9 @@ const CourseSlider = ({ value }) => {
       .filter((p) => p.category === filteredValue)
       .map((p) => (
         <SwiperSlide key={p.id} className="!w-68 cursor-pointer">
-          <img
-            src={p.previewImg}
-            className="rounded-2xl w-full h-auto object-cover border border-neutral"
-          ></img>
+          <div className="rounded-2xl w-full h-[170px]  border border-neutral overflow-hidden">
+            <img src={p.previewImg} className="object-cover w-full h-full" />
+          </div>
           <section className="flex justify-between items-center w-[90%] mx-auto border border-neutral border-t-0 p-3 rounded-es-2xl rounded-ee-2xl">
             <div className="flex flex-col text-sm">
               <p className="font-medium hover:underline"> {p.name}</p>
@@ -30,10 +29,9 @@ const CourseSlider = ({ value }) => {
   const allProjects = projects.map((p) => {
     return (
       <SwiperSlide key={p.id} className="!w-68 cursor-pointer">
-        <img
-          src={p.previewImg}
-          className="rounded-2xl w-full h-auto object-cover border border-neutral"
-        ></img>
+        <div className="rounded-2xl w-full h-[170px]  border border-neutral overflow-hidden">
+          <img src={p.previewImg} className="object-cover w-full h-full" />
+        </div>
         <section className="flex justify-between items-center w-[90%] mx-auto border border-neutral border-t-0 p-3 rounded-es-2xl rounded-ee-2xl">
           <div className="flex flex-col text-sm">
             <p className="font-medium hover:underline hover:text-[var(--primary)]">
