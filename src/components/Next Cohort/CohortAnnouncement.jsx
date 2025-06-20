@@ -25,7 +25,7 @@ const CohortAnnouncement = () => {
           <span className="text-primary">June 25, 2025</span>
         </h2>
 
-        <div className="mb-8 flex flex-wrap gap-4 justify-between">
+        <div className="mb-8 flex flex-wrap gap-12  justify-center">
           <div className="flex items-center gap-2">
             <div className="rounded-lg bg-primary border border-primary p-2">
               <FiCalendar className="text-xl text-primary-icon" />
