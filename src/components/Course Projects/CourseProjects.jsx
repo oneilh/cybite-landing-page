@@ -1,5 +1,5 @@
 import { Tabs } from "@mantine/core";
-import Projects from "./Projects";
+import ProjectPanels from "./ProjectPanels";
 
 const CourseProjects = () => {
   return (
@@ -15,7 +15,7 @@ const CourseProjects = () => {
           <Tabs.Tab value="Visual and UX Design">Visual and UX Design</Tabs.Tab>
         </Tabs.List>
 
-        <Projects />
+        <ProjectPanels />
       </Tabs>
     </section>
   );

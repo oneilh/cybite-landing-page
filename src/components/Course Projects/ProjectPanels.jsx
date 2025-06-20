@@ -2,7 +2,7 @@ import { Tabs } from "@mantine/core";
 
 import CourseSlider from "./CourseSlider";
 
-const Projects = () => {
+const ProjectPanels = () => {
   return (
     <>
       <Tabs.Panel value="All">
@@ -15,4 +15,4 @@ const Projects = () => {
   );
 };
 
-export default Projects;
+export default ProjectPanels;
