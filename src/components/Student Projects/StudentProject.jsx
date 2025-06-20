@@ -16,15 +16,21 @@ const StudentProject = () => {
             <IoRocket className="relative text-3xl text-primary animate-float" />
           </div>
           <h2 className="text-3xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-[var(--primary)] to-[var(--primary-icon)]">
-            Student Challenges
+            Build. Refine. Showcase
           </h2>
         </div>
 
         <p className="text-lg text-neutral max-w-md">
-          Push your limits with{" "}
-          <span className="font-medium text-primary">student</span> &{" "}
-          <span className="font-medium text-primary">tutor</span>-selected
-          challenges!
+          Tutor-Approved Challenges with
+          <span className="font-medium text-primary">
+            {" "}
+            3+ Production-Grade{" "}
+          </span>
+          to Push Your Limits
+          <br />
+        </p>
+        <p className="font-medium text-primary">
+          "Code → Validate → Ship – Your Curated Project Journey"
         </p>
       </section>
 
