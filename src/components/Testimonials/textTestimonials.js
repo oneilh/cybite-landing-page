@@ -17,7 +17,7 @@ export const textTestimonals = [
     id: 3,
     name: "Mr. Stanley",
     role: "Business Owner & Graphic Designer",
-    text: `As a business owner, I used to rely on designers for every flyer or visual I needed it was time-consuming and expensive. After taking the Visual & Design course at Cybite Academy, I can now create all my designs myself. It’s given me more creative freedom and control over how my brand looks and communicates. I highly recommend the program to any entrepreneur who wants to level up.`,
+    text: `As a business owner, I used to rely on designers for every flyer or visual I needed; it was time-consuming and expensive. After taking the Visual & Design course at Cybite Academy, I can now create all my designs myself. It’s given me more creative freedom and control over how my brand looks and communicates. I highly recommend the program to any entrepreneur who wants to level up.`,
     image: "",
   },
   {

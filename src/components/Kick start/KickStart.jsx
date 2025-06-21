@@ -15,7 +15,7 @@ const KickStart = () => {
     {
       id: 2,
       title: "Accelerate Your Learning",
-      text: "For driven beginners: Just bring a laptop. Follow our battle-tested curriculum push your limits, Practice and go from zero to industry-ready.",
+      text: "For driven beginners: Just bring a laptop. Follow our battle-tested curriculum, push your limits, Practice and go from zero to industry-ready.",
       icon: <MdSpeed className="text-2xl" />,
       iconBg: "bg-success",
       iconColor: "text-success",

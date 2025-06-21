@@ -24,7 +24,7 @@ export const offers = [
     id: 4,
     icon: "",
     title: "Streamlined Learning Path",
-    text: `Our curated roadmaps eliminate confusion and frustration. guiding you efficiently through complex concepts. Say no to the "Google rabbit hole."`,
+    text: `Our curated roadmaps eliminates confusion and frustration. guiding you efficiently through complex concepts. Say no to the "Google rabbit hole."`,
     color: "bg-danger border-danger text-danger icon-danger",
   },
   {
