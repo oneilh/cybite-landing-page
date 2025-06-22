@@ -30,7 +30,7 @@ const CourseCard = ({ courses, activeCourse }) => {
                 Learn More →
               </button> */}
               <button className="text-primary hover:!text-[var(--primary-border)] text-sm font-medium transition-colors cursor-pointer">
-                Pay in Installments 
+                Payment in Installments accepted
               </button>
               <button
                 className="w-full sm:w-auto px-6 py-3 bg-[var(--primary-border)] hover:bg-[var(--primary-bg)] text-white font-medium rounded-md transition-colors cursor-pointer"

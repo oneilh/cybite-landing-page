@@ -8,7 +8,7 @@ export const courses = [
     icon: <IoCode className="text-primary" />,
     name: "FrontEnd Dev",
     info: "70 lessons - 4 months",
-    price: "₦175,000",
+    // price: "₦175,000",
     desc: "Learn to build beautiful, interactive user interfaces with modern web technologies.",
     technologies: [
       "HTML",
@@ -25,7 +25,7 @@ export const courses = [
     id: 2,
     icon: <LuServer className="text-primary" />,
     name: "BackEnd Dev",
-    price: "₦175,000",
+    // price: "₦175,000",
     info: "65 lessons - 3 months",
     desc: "Master server-side development and database management for robust web applications.",
     technologies: [
@@ -41,7 +41,7 @@ export const courses = [
     id: 3,
     icon: <AiOutlineLineChart className="text-primary" />,
     name: "Data Analysis",
-    price: "₦175,000",
+    // price: "₦175,000",
     info: "60 lessons - 4 months",
     desc: "Unlock insights from data using powerful analysis tools and visualization techniques.",
     technologies: ["Python", "Pandas", "NumPy", "Matplotlib", "SQL", "Excel"],
@@ -50,7 +50,7 @@ export const courses = [
     id: 4,
     icon: <BsPalette className="text-primary" />,
     name: "Visual & UX Design",
-    price: "₦250,000",
+    // price: "₦250,000",
     info: "55 lessons - 3 months",
     desc: "Create stunning visual designs and intuitive user experiences for digital products.",
     technologies: [

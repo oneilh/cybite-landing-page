@@ -188,14 +188,14 @@ My question: ${question || "N/A"}
                 </button>
               ))}
             </div>
-            {selectedCourse && (
+            {/* {selectedCourse && (
               <p className="text-sm text-gray-600 mt-2">
                 Price:{" "}
                 <span className="font-semibold text-lg">
                   {selectedCourse.price}
                 </span>
               </p>
-            )}
+            )} */}
             {errors.course && (
               <p className="text-red-500 text-xs mt-1">{errors.course}</p>
             )}
