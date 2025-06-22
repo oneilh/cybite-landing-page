@@ -22,7 +22,7 @@ const CohortAnnouncement = () => {
 
         <h2 className="mb-4 text-3xl font-bold md:text-4xl font-manrope">
           Join Our Next Cohort <br />
-          <span className="text-primary">June 25, 2025</span>
+          <span className="text-primary">June 28, 2025</span>
         </h2>
 
         <div className="mb-8 flex flex-wrap gap-12  justify-center">
