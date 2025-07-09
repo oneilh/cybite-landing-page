@@ -13,14 +13,13 @@ export const projects = [
     previewImg: "/Images/Projects/budgetstats.png",
     liveLink: "https://budget-stats.vercel.app/",
   },
-  // {
-  //   id: 3,
-  //   category: "Frontend",
-  //   name: "Rock, Scissor N Paper",
-  //   previewImg: "/rock-paper-scissors.png",
-  //   liveLink:
-  //     "https://vercel.com/oneilhs-projects/rock-paper-scissors/EVdJmYWUk6usxfNyZidXwCZgx8Go",
-  // },
+  {
+    id: 3,
+    category: "Frontend",
+    name: "MiniProFeb25",
+    previewImg: "/Images/Projects/miniprojectfebcohort2025.png",
+    liveLink: "feb-cohort-2025-mini-project-olive.vercel.app/",
+  },
   // {
   //   id: 4,
   //   category: "Frontend",

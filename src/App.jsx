@@ -32,7 +32,7 @@ function App() {
           <CourseProjects />
           <StudentProject />
           <KickStart />
-          <CohortAnnouncement />
+          {/* <CohortAnnouncement /> */}
           <Footer />
         </main>
         <CourseInquiryModal />
