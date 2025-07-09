@@ -18,7 +18,7 @@ export const projects = [
     category: "Frontend",
     name: "MiniProFeb25",
     previewImg: "/Images/Projects/miniprojectfebcohort2025.png",
-    liveLink: "feb-cohort-2025-mini-project-olive.vercel.app/",
+    liveLink: "https://feb-cohort-2025-mini-project-olive.vercel.app/",
   },
   // {
   //   id: 4,
