@@ -1,0 +1,28 @@
+{
+  "id": "cybite-landing-1",
+  "name": "Cybite Landing Page",
+  "description": "A high-performance, modern landing page designed to capture attention and drive conversions through sleek UI/UX and lightning-fast load times.",
+  "image": "./assets/screenshots/hero.png",
+  "githubUrl": "https://github.com/oneilh/cybite-landing-page",
+  "liveUrl": "https://cybite-landing-page.vercel.app/",
+  "tags": ["React 19", "Vite", "Tailwind CSS v4", "Mantine UI"],
+  "featured": true,
+  "details": {
+    "overview": "Engineered a high-conversion landing page architecture focusing on sub-second load times and robust component design. Leveraged a hybrid styling approach integrating Tailwind CSS with Mantine UI primitives to balance rapid deployment with strict accessibility standards.",
+    "features": [
+      "Engaging Hero & Interactive UI that instantly grabs user attention",
+      "Dynamic Content Sliders for frictionless feature and testimonial discovery",
+      "Fully Responsive Layout optimized for all viewport sizes"
+    ],
+    "technicalHighlights": [
+      "Architected a hybrid PostCSS pipeline to synchronize CSS variables and prevent clashes between Tailwind's utility classes and Mantine's component ecosystem.",
+      "Fine-tuned the Vite build configuration to effectively chunk the React DOM and third-party libraries, significantly reducing the initial JavaScript payload.",
+      "Managed complex, touch-friendly slider state at a high level to ensure UI synchronization without triggering full-page re-renders."
+    ],
+    "gallery": [
+      "./assets/screenshots/hero.png",
+      "./assets/screenshots/features.png",
+      "./assets/screenshots/testimonials.png"
+    ]
+  }
+}
