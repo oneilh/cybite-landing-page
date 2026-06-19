@@ -18,16 +18,17 @@ This repository contains the front-end architecture for the Cybite Landing Page.
 
 <br>
 
-<!-- Replace these placeholder images with your actual screenshots in the assets/screenshots folder -->
-
 _Hero Section:_
-![Hero Section](./assets/screenshots/hero.png)
+![Hero Section](./assets/screenshots/image-1.png)
 
 _Feature Showcase:_
-![Features Showcase](./assets/screenshots/features.png)
+![Features Showcase](./assets/screenshots/image-2.png)
 
 _Testimonials Slider:_
-![Testimonials Slider](./assets/screenshots/testimonials.png)
+![Testimonials Slider](./assets/screenshots/image-3.png)
+
+_Extra Screenshot:_
+![Extra Screenshot](./assets/screenshots/image-4.png)
 
 </details>
 

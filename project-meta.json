@@ -2,7 +2,7 @@
   "id": "cybite-landing-1",
   "name": "Cybite Landing Page",
   "description": "A high-performance, modern landing page designed to capture attention and drive conversions through sleek UI/UX and lightning-fast load times.",
-  "image": "./assets/screenshots/hero.png",
+  "image": "./assets/screenshots/image-1.png",
   "githubUrl": "https://github.com/oneilh/cybite-landing-page",
   "liveUrl": "https://cybite-landing-page.vercel.app/",
   "tags": ["React 19", "Vite", "Tailwind CSS v4", "Mantine UI"],
@@ -20,9 +20,10 @@
       "Managed complex, touch-friendly slider state at a high level to ensure UI synchronization without triggering full-page re-renders."
     ],
     "gallery": [
-      "./assets/screenshots/hero.png",
-      "./assets/screenshots/features.png",
-      "./assets/screenshots/testimonials.png"
+      "./assets/screenshots/image-1.png",
+      "./assets/screenshots/image-2.png",
+      "./assets/screenshots/image-3.png",
+      "./assets/screenshots/image-4.png"
     ]
   }
 }
